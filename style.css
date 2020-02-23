@@ -1,0 +1,60 @@
+header{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border-bottom-style: solid;
+    border-color: grey;
+    border-width: 1px;
+  }
+  p{
+    font-size: 15px;
+  }
+  body {
+    background-color: black;
+    color: white;
+  }
+  
+  div{
+    
+    padding: 20px;
+    width: 300px;
+    height : 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .radio{
+    background-color: grey;
+    padding: 20px;
+    width: 150px;
+    height : 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  .topRight{
+    width: 25px;
+    float: right;
+  }
+  
+  .topLeft{
+    width: 25px;
+    float: left;
+  }
+  .bottomRight{
+    width: 25px;
+    float: right;
+    margin-top: 170px;
+    margin-right: -30px;
+  }
+  
+  .bottomLeft{
+    width: 25px;
+    float: left;
+    margin-top: 170px;
+    margin-left: -30px;
+  }
