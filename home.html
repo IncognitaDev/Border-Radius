@@ -11,16 +11,16 @@
         <h1>Border Radius</h1>
         <p>Generator</p>
     </header>
-      <div>
+      <section>
          
-        <input type="number" id="topRight" class="topRight" min="0">
-        <input type="number" id="topLeft" class="topLeft" min="0">
-        <input type="number" id="bottomRight" class="bottomRight" min=0>
-        <input type="number" id="bottomLeft" class="bottomLeft" min=0>
-        <div class="radio">
+        <input type="text" id="topRight" class="topRight" min="0" onchange="borderTR()">
+        <input type="text" id="topLeft" class="topLeft" min="0" onchange="borderTL()">
+        <input type="text" id="bottomRight" class="bottomRight" min=0 onchange="borderBR()">
+        <input type="text" id="bottomLeft" class="bottomLeft" min=0 onchange="borderBL()">
+        <div class="radius" id="radius">
       
         </div>
-        </div>                        
+      </section>                        
         <script src="script.js"></script>
 </body>
 </html>
